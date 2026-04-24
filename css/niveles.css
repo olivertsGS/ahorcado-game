@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to right, rgb(144, 142, 165), #3A3F3B);
+    font-family: "Luckiest Guy", cursive;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.abecedario {
+    width: 700px;
+    height: 600px;
+    margin: 70px;
+    background-color: transparent;
+
+}
+
+button {
+    width: 90px;
+    height: 50px;
+    background-color: #434446;
+    color: white;
+    margin: 23px;
+    align-items: center;
+    border: 2px, solid, black;
+    border-radius: 10%;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 25px;
+}
+
+canvas {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 500px;
+    height: 500px;
+}
+
+.linea {
+    display: inline-block;
+    width: 50px;
+    border-bottom: 4px solid black;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: #434446;
+}
+
+.regresarMenu {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-right: 20px;
+}
+
+.regresarMenu:hover {
+    color: rgb(147, 28, 28);
+}
+
+.button:hover {
+    transform: scale(1.10);
+    opacity: 0.9;
+    cursor: pointer;
+}
