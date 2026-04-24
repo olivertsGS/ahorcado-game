@@ -69,7 +69,7 @@ const partes = [
     () => {
         ctx.lineWidth = 11;
         ctx.beginPath();
-        ctx.moveTo(345, 196);
+        ctx.moveTo(345, 200);
         ctx.lineTo(345, 340);
         ctx.stroke();
     },
